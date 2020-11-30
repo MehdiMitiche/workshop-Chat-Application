@@ -1,0 +1,19 @@
+.chat-section-container {
+  width: 40%;
+  height: 85%;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 800px) {
+  .chat-section-container {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .chat-section-container {
+    width: 90%;
+  }
+}
